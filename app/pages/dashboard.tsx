@@ -1,4 +1,5 @@
 import React from 'react'
+import Layout from './layout'
 
 export default function Home() {
 	const myHome = '/'
@@ -6,7 +7,8 @@ export default function Home() {
 	return (
 		<div>
 			<h1>DASHBOARD PAGE</h1>
-			<a href={myHome}>[GO TO HOME]</a>
+			<a href={myHome}>[HOME]</a>
+			<h1> About Page </h1>
 		</div>
 	)
 }

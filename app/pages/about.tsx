@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function About() {
+import Layout from './layout'
+
+export default function Home() {
 	return (
 		<div>
 			<h1> About Page </h1>
-		</div>
+	</div>
 	)
 }
