@@ -11,10 +11,17 @@ export default function Header() {
 					<nav>
 						<ul>
 							<li>
-								<a href='/'>Home</a>
+								<a href='/'>HOME</a>
 							</li>
 							<li>
-								<a href={url2}>GO TO SETTINGS</a>
+								<a href='./pages/about'>ABOUT</a>
+							</li>
+							<li>
+								<a href='./pages/index'>DASHBOARD</a>
+							</li>
+
+							<li>
+								<a href={url2}>SETTINGS</a>
 							</li>
 						</ul>
 					</nav>

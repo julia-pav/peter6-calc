@@ -5,7 +5,7 @@ export default function Home() {
 
 	return (
 		<div>
-			<h1>SETTINGS PAGE</h1>
+			<h1>DASHBOARD PAGE</h1>
 			<a href={myHome}>[GO TO HOME]</a>
 		</div>
 	)
